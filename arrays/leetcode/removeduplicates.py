@@ -11,5 +11,6 @@ class Solution(object):
                 nums[j] = nums[i]
         return j + 1
 
+        # I prefer the use of a set here as it shows better knowledge of data structs.
         # nums[:] = sorted(set(nums))
         # return len(nums)
