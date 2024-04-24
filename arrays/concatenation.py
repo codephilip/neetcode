@@ -11,3 +11,10 @@ def concatenatearr(nums):
             res.append(num)
 
     return res
+
+
+# or, lmao
+
+
+def concatenatearray(nums):
+    return nums + nums
