@@ -12,7 +12,7 @@ class Solution(object):
         """
         print("head of list 1:", list1)
         print("head of list 2:", list2)
-
+        # ListNode here is undefined.
         dummy = ListNode()
         tail = dummy
         print("tail", tail)
